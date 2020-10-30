@@ -1,0 +1,44 @@
+.subscribe-item {
+  @media (max-width: $mobile) {
+    
+  }
+  max-width: 350px;
+  &:first-child {
+    max-width: 352px;
+    background-image: url("../images/subscribe_1.png");
+  }
+  &:nth-child(2) {
+    background-image: url("../images/subscribe_2.png");
+  }
+  &:last-child {
+    background-image: url("../images/subscribe_3.png");
+  }
+}
+
+.subscribe-link {
+  min-height: 68px;
+}
+
+.author {
+  max-width: 221px;
+}
+
+.news-link {
+  max-width: 129px;
+  min-height: 48px;
+}
+
+.app-link {
+  max-width: 174px;
+  min-height: 56px;
+}
+
+@media (max-width: $mobile) {
+  .subscribe-header {
+    font-size: 20px;
+  }
+
+  .subscribe-list {
+    flex-wrap: wrap;
+  }
+}

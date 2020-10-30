@@ -4,9 +4,239 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Портал «Music Box» k2miha</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles/style.css">
 </head>
 <body>
-  
+  <header class="bg-banner">
+    <nav class="container mx-auto d-flex align-items-center pt-25 text-uppercase navigation">
+      <a class="d-flex align-items-center font-size-smallest text-white text-decoration-none logo" href="" >
+        <img src="images/logo.svg" alt="logo" width="19" height="17">
+        <b class="ml-4">Music Box</b>
+      </a>
+      <ul class="d-flex pl-100 mt-0 mb-0 justify-content-between list-style-none menu">
+        <li class="d-flex menu-item">
+          <a class="text-white font-size-smallest text-decoration-none font-weight-bold menu-link" href="">Главная</a>
+        </li>
+        <li class="d-flex menu-item">
+          <a class="text-gray font-size-smallest text-decoration-none font-weight-bold menu-link" href="">Каталог</a>
+        </li>
+        <li class="d-flex menu-item">
+          <a class="text-gray font-size-smallest text-decoration-none font-weight-bold menu-link" href="">Исполнители</a>
+        </li>
+        <li class="d-flex menu-item">
+          <a class="text-gray font-size-smallest text-decoration-none font-weight-bold menu-link" href="">Контакты</a>
+        </li>
+      </ul>
+      <form class="ml-auto search-form" action="">
+        <input class="font-size-smallest font-weight-bold bg-dark-gray border-radius-50 border-0 text-uppercase pl-14 btn-search" type="search" placeholder="Поиск...">
+      </form>
+    </nav>
+    <section class="container mx-auto text-center text-white">
+      <h1 class="font-size-biggest text-uppercase mb-10 mt-221 header-level-1">Онлайн музыка где угодно</h1>
+      <p class="font-size-big mt-0 mb-45">
+        <strong class="text-uppercase important-text">без ограничений</strong>
+      </p>
+      <p class="font-weight-bold font-size-small mb-40 banner-text">Получите доступ всего за несколько шагов. Заполните форму ниже и откройте мир музыки</p>
+      <form class="d-flex gap-30 flex-wrap pb-246 mx-auto header-form" action="">
+        <input class="font-family-inherit font-weight-bold bg-transparent-white font-size-smaller border-style-solid border-color-transparent-white border-radius-3 pl-20 box-sizing-border-box form-input" type="text" placeholder="Имя">
+        <input class="font-family-inherit font-weight-bold bg-transparent-white font-size-smaller border-style-solid border-color-transparent-white border-radius-3 pl-20 box-sizing-border-box form-input" type="email" placeholder="Email">
+        <input class="font-family-inherit font-weight-bold bg-green font-size-smaller text-uppercase text-white w-100 border-radius-5 border-0 btn-send" type="submit" value="Получить доступ">
+      </form>
+    </section>
+  </header>
+  <main>
+    <div class="container mx-auto">
+      <section class="text-white text-center">
+        <h2 class="mt-100 mb-50 font-size-bigger text-uppercase subscribe-header">Формы подписки</h2>
+        <ul class="d-flex justify-content-between list-style-none pl-0 subscribe-list">
+          <li class="pr-25 pl-25 box-sizing-border-box subscribe-item">
+            <h3 class="mt-24 font-weight-normal font-size-medium text-uppercase mb-222">Бесплатная</h3>
+            <p class="d-flex justify-content-center mb-40">
+              <span class="font-size-biggest">0</span>
+              <sup class="font-size-big text-uppercase mt-7 ml-11">руб.</sup>
+            </p>
+            <a class="font-size-medium text-uppercase text-white text-decoration-none d-flex justify-content-center align-items-center border-style-solid border-width-4 border-color-white border-radius-5 mx-auto box-sizing-border-box subscribe-link" href="">Оформить</a>
+            <p class="mt-38 mb-60 font-size-smallest">
+              Оплата в месяц. Бесплатный тариф предоставляет доступ ко всей коллекции музыки. Присутствует реклама
+            </p>
+          </li>
+          <li class="pr-25 pl-25 box-sizing-border-box subscribe-item">
+            <h3 class="mt-24 font-weight-normal font-size-medium text-uppercase mb-222">Стандартная</h3>
+            <p class="d-flex justify-content-center mb-40">
+              <span class="font-size-biggest">250</span>
+              <sup class="font-size-big text-uppercase mt-7 ml-11">руб.</sup>
+            </p>
+            <a class="font-size-medium text-uppercase text-white text-decoration-none d-flex justify-content-center align-items-center border-style-solid border-width-4 border-color-white border-radius-5 mx-auto box-sizing-border-box subscribe-link" href="">Оформить</a>
+            <p class="mt-38 mb-60 font-size-smallest">
+              Оплата в месяц. Стандартный тариф предоставляет доступ ко всей коллекции музыки в среднем качестве
+            </p>
+          </li>
+          <li class="pr-25 pl-25 box-sizing-border-box subscribe-item">
+            <h3 class="mt-24 font-weight-normal font-size-medium text-uppercase mb-222">Премиум</h3>
+            <p class="d-flex justify-content-center mb-40">
+              <span class="font-size-biggest">500</span>
+              <sup class="font-size-big text-uppercase mt-7 ml-11">руб.</sup>
+            </p>
+            <a class="font-size-medium text-uppercase text-white text-decoration-none d-flex justify-content-center align-items-center border-style-solid border-width-4 border-color-white border-radius-5 mx-auto box-sizing-border-box subscribe-link" href="">Оформить</a>
+            <p class="mt-38 mb-60 font-size-smallest">
+              Оплата в месяц. Премиум тариф предоставляет доступ ко всей коллекции музыки в высоком качестве
+            </p>
+          </li>
+        </ul>
+        <p class="mt-51 font-size-normal">
+          На всех тарифах возможно прослушивание музыки с мобильных устройств. На премиум тарифе вы можете скачать все композиции на ваше устройство и слушать музыку без подключения к интернету
+        </p>
+      </section>
+      <section class="text-white">
+        <h2 class="mt-100 mb-50 font-size-bigger text-center text-uppercase">Последние новости</h2>
+        <article class="d-flex gap-68 mb-70">
+          <img src="images/Music to Be Murdered By.png" alt="Music to Be Murdered By">
+          <div>
+            <h3 class="font-weight-normal font-size-big mt-20 mb-25">Music to Be Murdered By</h3>
+            <p class="font-size-smaller line-height-28 text-grey mb-16">Новый альбом Eminem  «Music to Be Murdered By» уже доступен в нашем сервисе. На альбоме вас ждёт 20 новых треков.</p>
+            <div class="d-flex align-items-center gap-21 mb-45 author">
+              <img src="images/avatar.png" alt="avatar">
+              <span class="font-size-xx-small line-height-28 text-uppercase text-orange">Music box</span>
+              <hr class="align-self-stretch border-right-0 border-color-dark-silver">
+              <time class="font-size-xx-small text-dark-grey" datetime="2020-01-17">17/01/2020</time>
+            </div>
+            <a class="font-weight-bold font-size-xx-small line-height-28 text-uppercase text-grey text-decoration-none border-style-solid border-width-1 border-color-light-grey border-radius-5 d-flex justify-content-center align-items-center box-sizing-border-box news-link" href="">К альбому</a>
+          </div>
+        </article>
+        <article class="d-flex align-items-center gap-68">
+          <div>
+            <h3 class="font-weight-normal font-size-big mt-0 mb-25">Ordinary Man</h3>
+            <p class="font-size-smaller line-height-28 text-grey border-radius-5 mb-16">Легенда рока Оззи Озборн спустя 10 лет выпустил новый альбом Ordinary Man. Слушайте в числе первых на Music Box</p>
+            <div class="d-flex align-items-center gap-21 mb-45 author">
+              <img src="images/avatar.png" alt="avatar">
+              <span class="font-size-xx-small line-height-28 text-uppercase text-orange">Music box</span>
+              <hr class="align-self-stretch border-right-0 border-color-dark-silver">
+              <time class="font-size-xx-small text-dark-grey" datetime="2020-02-24">24/02/2020</time>
+            </div>
+            <a class="font-weight-bold font-size-xx-small line-height-28 text-uppercase text-grey text-decoration-none border-style-solid border-width-1 border-color-light-grey border-radius-5 d-flex justify-content-center align-items-center box-sizing-border-box news-link" href="">К альбому</a>
+          </div>
+          <img src="images/Ordinary Man.png" alt="Ordinary Man">
+        </article>
+      </section>
+      <section class="mb-100">
+        <h2 class="text-white text-center mt-100 mb-50 font-size-bigger text-uppercase">Мобильное приложение</h2>
+        <div class="d-flex gap-68">
+          <div class="col">
+            <p class="text-grey mt-32 mb-25">
+              Воспользуйтесь нашим мобильным приложением. Оно позволит слушать музыку с любого устройства на базе операционных систем Androind и iOS
+            </p>
+            <p class="text-grey mb-25">
+              С тарифом «Премиум» приложение позволяет скачивать все композиции из нашей коллекции. Вы можете слушать музыку даже без интернета.
+            </p>
+            <a class="d-flex justify-content-center align-items-center font-size-smaller text-white text-decoration-none bg-red border-radius-50 app-link" href="">Скачать</a>
+          </div>
+          <div class="col">
+            <img class="ml-176" src="images/iphone.png" alt="iphone">
+          </div>
+        </div>
+      </section>
+    </div>
+  </main>
+  <footer class="bg-gradient-violet-brown">
+    <h2 class="visually-hidden">Меню в подвале</h2>
+    <div class="container mx-auto">
+      <div class="container-inner d-flex justify-content-between">
+        <section>
+          <h3 class="mt-80 mb-30 font-size-small text-light-gray">О нас</h3>
+          <ul class="list-style-none pl-0 mb-100">
+            <li class="mb-20">
+              <a class="text-light-gray text-decoration-none" href="">История компании</a>
+            </li>
+            <li class="mb-20">
+              <a class="text-light-gray text-decoration-none" href="">Карьера</a>
+            </li>
+            <li class="mb-20">
+              <a class="text-light-gray text-decoration-none" href="">Особенности</a>
+            </li>
+            <li class="mb-20">
+              <a class="text-light-gray text-decoration-none" href="">Пресса</a>
+            </li>
+          </ul>
+        </section>
+        <section>
+          <h3 class="mt-80 mb-30 font-size-small text-light-gray">Поддержка</h3>
+          <ul class="list-style-none pl-0 mb-100">
+            <li class="mb-20">
+              <a class="text-light-gray text-decoration-none" href="">База знаний</a>
+            </li>
+            <li class="mb-20">
+              <a class="text-light-gray text-decoration-none" href="">Тарифы</a>
+            </li>
+            <li class="mb-20">
+              <a class="text-light-gray text-decoration-none" href="">Мобильное приложение</a>
+            </li>
+            <li class="mb-20">
+              <a class="text-light-gray text-decoration-none" href="">Условия использования</a>
+            </li>
+          </ul>
+        </section>
+        <section>
+          <h3 class="mt-80 mb-30 font-size-small text-light-gray">Контакты</h3>
+          <ul class="list-style-none pl-0 mb-100">
+            <li class="mb-20">
+              <a class="text-light-gray text-decoration-none" href="mailto:hello@music.box">hello@music.box</a>
+            </li>
+            <li class="mb-20">
+              <span class="text-light-gray">Russia, Moscow. Music Box studio</span>
+            </li>
+            <li class="mb-20">
+              <a class="text-light-gray text-decoration-none" href="tel:+74999999999">+ 7 499 999 99 99</a>
+            </li>
+          </ul>
+        </section>
+        <section>
+          <h3 class="mt-80 mb-30 font-size-small text-light-gray">Подписывайтесь</h3>
+          <ul class="d-flex justify-content-between list-style-none pl-0 mb-100">
+            <li>
+              <a href="">
+                <img src="images/Google+.png" alt="Google+">
+              </a>
+            </li>
+            <li>
+              <a href="">
+                <img src="images/Twitter.png" alt="Twitter">
+              </a>
+            </li>
+            <li>
+              <a href="">
+                <img src="images/Facebook.png" alt="Facebook">
+              </a>
+            </li>
+            <li>
+              <a href="">
+                <img src="images/Instagram.png" alt="Instagram">
+              </a>
+            </li>
+          </ul>
+        </section>
+      </div>
+    </div>
+    <hr class="w-100 mt-0 border-right-0 border-left-0 border-top-0">
+    <div class="container mx-auto">
+      <ul class="d-flex justify-content-between list-style-none pl-0 mt-50 mb-0 pb-50 footer-menu">
+        <li>
+          <a class="text-light-gray text-decoration-none" href="">Магазин</a>
+        </li>
+        <li>
+          <a class="text-light-gray text-decoration-none" href="">Обслуживание</a>
+        </li>
+        <li>
+          <a class="text-light-gray text-decoration-none" href="">Блог</a>
+        </li>
+        <li>
+          <a class="text-light-gray text-decoration-none" href="">Поддержка</a>
+        </li>
+        <li>
+          <a class="text-light-gray text-decoration-none" href="">Контакты</a>
+        </li>
+      </ul>
+    </div>
+  </footer>
 </body>
 </html>
