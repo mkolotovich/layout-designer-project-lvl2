@@ -364,6 +364,23 @@
 
 .container {
   width: 1200px;
+
+  @media (max-width: $tablet-landscape) {
+    width: 984px;
+  }
+
+  @media (max-width: $tablet) {
+    width: 728px;
+  }
+
+  @media (max-width: $iphone-6-plus) {
+    width: 385px;
+  }
+
+  @media (max-width: $iphone-6) {
+    width: 335px;
+  }
+
   @media (max-width: $mobile) {
     width: 280px;
   }
@@ -371,17 +388,24 @@
 
 .container-inner {
   width: 1020px;
+
+  @media (max-width: $tablet-landscape) {
+    width: auto;
+  }
 }
 
 .mx-auto {
-  margin-left: auto;
   margin-right: auto;
+  margin-left: auto;
+  
 }
 
 .visually-hidden {
   position: absolute;
-  clip: rect(0 0 0 0);
+
   width: 1px;
   height: 1px;
   margin: -1px;
+
+  clip: rect(0 0 0 0);
 }

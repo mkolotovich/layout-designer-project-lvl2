@@ -1,0 +1,50 @@
+.footer-menu {
+  max-width: 534px;
+  
+  @media (max-width: $iphone-6-plus) {
+    margin-bottom: 0;
+  }
+}
+
+@media (max-width: $tablet) {
+  .footer-container {
+    flex-wrap: wrap;
+  }
+
+  .footer-menu-container {
+    min-width: 50%;
+  }
+  
+  .footer-menu-container:last-child .footer-menu {
+    max-width: 147px;
+  }
+}
+
+@media (max-width: $iphone-6-plus) {
+  .footer-container {
+    flex-direction: column;
+    margin-bottom: 100px;
+  }
+
+  .footer-menu-header {
+    margin-top: 40px;
+  }
+
+  .footer-menu-container:first-child .footer-menu-header {
+    margin-top: 84px;
+  }
+
+  .footer-bottom-menu {
+    flex-direction: column;
+  }
+
+  .footer-bottom-item:not(:last-child) {
+    margin-bottom: 20px;
+  }
+}
+
+@media (max-width: $mobile) { 
+  .footer-container {
+    width: 280px;
+  }
+}

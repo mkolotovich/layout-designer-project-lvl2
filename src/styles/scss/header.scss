@@ -1,0 +1,154 @@
+.menu {
+  min-width: 405px; 
+
+  @media (max-width: $tablet) {
+    flex-grow: 1;
+    justify-content: space-around;
+    min-width: unset;
+    padding-left: 0;
+  }
+
+  @media (max-width: $iphone-6-plus) {
+    flex-direction: column;
+    order: 3;
+  }
+}
+
+.btn-search {
+  min-width: 278px;
+  min-height: 25px;
+}
+
+.btn-send {
+  min-height: 56px;
+}
+
+.bg-banner {
+  background-image: url("../images/banner.png");
+
+  @media (max-width: $tablet) {
+    background-position-x: -176px;
+  }
+
+  @media (max-width: $iphone-6-plus) {
+    background-size: 1156px;
+  }
+}
+
+.header-form {
+  max-width: 570px;
+
+  @media (max-width: $tablet-landscape) {
+    padding-bottom: 44px;
+  }
+}
+
+.form-input {
+  min-width: 270px;
+  min-height: 50px;
+
+  @media (max-width: $iphone-6-plus) {
+    flex-grow: 1;
+  }
+}
+
+.form-input::placeholder {
+  color: $white;
+}
+
+@media (max-width: $tablet-landscape) {
+  .header-level-1 {
+    font-size: 50px;
+  }
+
+  .important-text {
+    font-size: 26px;
+  }
+
+  .banner-text {
+    font-size: 17px;
+  }
+}
+
+@media (max-width: $tablet) {
+  .navigation {
+    align-items: center;
+  }
+
+  .header-level-1 {
+    margin-top: 59px;
+    
+    font-size: 45px;
+  }
+
+  .important-text {
+    font-size: 24px;
+  }
+
+  .banner-text {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: $iphone-6-plus) {
+  .navigation {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .search-form {
+    order: 2;
+    margin-bottom: 20px;
+    margin-left: 0;
+  }
+
+  .logo {
+    margin-bottom: 17px;
+  }
+
+  .menu-item {
+    margin-bottom: 10px;
+    &:first-child .menu-link {
+      color: $gray;
+    }
+    &:nth-child(3) .menu-link {
+      color: $white;
+    }
+  }
+
+  .header-level-1 {
+    font-size: 40px;
+  }
+
+  .important-text {
+    font-size: 22px;
+  }
+
+  .banner-text {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: $iphone-6) {
+  .header-level-1 {
+    font-size: 35px;
+  }
+  .important-text {
+    font-size: 20px;
+  }
+  .banner-text {
+    font-size: 13px;
+  }
+}
+
+@media (max-width: $mobile) {
+  .header-level-1 {
+    font-size: 30px;
+  }
+  .important-text {
+    font-size: 18px;
+  }
+  .banner-text {
+    font-size: 12px;
+  }
+}
