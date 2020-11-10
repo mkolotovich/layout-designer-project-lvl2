@@ -2,12 +2,28 @@
   box-sizing: border-box;
 }
 
+.relative {
+  position: relative;
+}
+
+.absolute {
+  position: absolute;
+}
+
 .d-flex {
   display: flex;
 }
 
+.d-inline-flex {
+  display: inline-flex;
+}
+
 .flex-wrap {
   flex-wrap: wrap;
+}
+
+.flex-column {
+  flex-direction: column;
 }
 
 .col {
@@ -24,6 +40,10 @@
 
 .align-self-stretch {
   align-self: stretch;
+}
+
+.align-self-center {
+  align-self: center;
 }
 
 .justify-content-between {
@@ -74,6 +94,10 @@
   text-align: center;
 }
 
+.text-left {
+  text-align: left;
+}
+
 .font-weight-bold {
   font-weight: bold;
 }
@@ -94,8 +118,12 @@
   font-size: 14px;
 }
 
-.font-size-small {
+.font-size-x-small {
   font-size: 18px;
+}
+
+.font-size-small {
+  font-size: 20px;
 }
 
 .font-size-normal {
@@ -122,6 +150,14 @@
   font-family: inherit;
 }
 
+.bottom-10 {
+  bottom: 10px;
+}
+
+.left-15 {
+  left: 15px;
+}
+
 .gap-21 {
   gap: 21px;
 }
@@ -130,12 +166,27 @@
   gap: 30px;
 }
 
+.gap-50 {
+  gap: 50px;
+}
+
 .gap-68 {
   gap: 68px;
 }
 
+.col-gap-68 {
+  column-gap: 68px;
+}
+
+.padding-0 {
+  padding: 0;
+}
 .pt-25 {
   padding-top: 25px;
+}
+
+.pr-15 {
+  padding-right: 15px;
 }
 
 .pr-25 {
@@ -146,8 +197,8 @@
   padding-bottom: 50px;
 }
 
-.pb-246 {
-  padding-bottom: 246px;
+.pb-242 {
+  padding-bottom: 242px;
 }
 
 .pl-0 {
@@ -156,6 +207,10 @@
 
 .pl-14 {
   padding-left: 14px;
+}
+
+.pl-19 {
+  padding-left: 19px;
 }
 
 .pl-20 {
@@ -176,6 +231,14 @@
 
 .mt-7 {
   margin-top: 7px;
+}
+
+.mt-10 {
+  margin-top: 10px;
+}
+
+.mt-15 {
+  margin-top: 15px;
 }
 
 .mt-20 {
@@ -202,6 +265,10 @@
   margin-top: 51px;
 }
 
+.mt-8 {
+  margin-top: 8px;
+}
+
 .mt-80 {
   margin-top: 80px;
 }
@@ -214,8 +281,16 @@
   margin-top: 211px;
 }
 
+.mt-225 {
+  margin-top: 225px;
+}
+
 .mb-0 {
   margin-bottom: 0;
+}
+
+.mb-5 {
+  margin-bottom: 5px;
 }
 
 .mb-10 {
@@ -258,6 +333,10 @@
   margin-bottom: 70px;
 }
 
+.mb-76 {
+  margin-bottom: 76px;
+}
+
 .mb-100 {
   margin-bottom: 100px;
 }
@@ -278,8 +357,16 @@
   margin-left: 11px;
 }
 
+.ml-16 {
+  margin-left: 16px;
+}
+
 .ml-176 {
   margin-left: 176px;
+}
+
+.mr-35 {
+  margin-right: 35px;
 }
 
 .bg-dark-gray {
@@ -288,6 +375,18 @@
 
 .bg-gradient-violet-brown {
   background: linear-gradient(89.75deg, $violet 32.83%, $brown 81.56%);;
+}
+
+.bg-brown {
+  background-color: $brown;
+}
+
+.bg-violet {
+  background-color: $violet;
+}
+
+.bg-transparent {
+  background-color: transparent;
 }
 
 .bg-transparent-white {

@@ -1,0 +1,57 @@
+.news-author {
+  max-width: 221px;
+
+  @media (max-width: $iphone-6-plus) {
+    max-width: 257px;
+    margin-bottom: 25px;
+  }
+}
+
+.news-link {
+  max-width: 129px;
+  min-height: 48px;
+
+  @media (max-width: $iphone-6-plus) {
+    max-width: none;
+    min-height: 50px;
+  }
+}
+
+@media (max-width: $tablet) {
+  .news-image {
+    margin: auto;
+  }
+
+  .news-article {
+    flex-wrap: wrap;
+    &:last-of-type .news-image {
+      order: -1;
+    }
+  }
+}
+
+@media (max-width: $iphone-6-plus) {
+  .news-header {
+    margin-top: 44px;
+
+    font-size: 20px;
+  }
+
+  .news-article {
+    gap: 0;
+    &:first-of-type {
+      margin-bottom: 40px;
+    }
+    &:last-of-type .news-article-header {
+      margin-top: 20px;
+    }
+  }
+
+  .news-image {
+    max-width: 100%;
+  }
+
+  .news-description {
+    margin-bottom: 25px;
+  }
+}
