@@ -333,8 +333,8 @@
   margin-bottom: 70px;
 }
 
-.mb-76 {
-  margin-bottom: 76px;
+.mb-72 {
+  margin-bottom: 72px;
 }
 
 .mb-100 {
@@ -461,42 +461,27 @@
   border-color: $dark-silver;
 }
 
+.mx-auto {
+  margin-right: auto;
+  margin-left: auto;
+}
+
 .container {
-  width: 1200px;
-
-  @media (max-width: $tablet-landscape) {
-    width: 984px;
-  }
-
-  @media (max-width: $tablet) {
-    width: 728px;
-  }
-
-  @media (max-width: $iphone-6-plus) {
-    width: 385px;
-  }
-
-  @media (max-width: $iphone-6) {
-    width: 335px;
-  }
-
-  @media (max-width: $mobile) {
-    width: 280px;
+  width: auto;
+  max-width: 1200px;
+  
+  @media (max-width: $desktop) {
+    margin-right: 20px;
+    margin-left: 20px;
   }
 }
 
 .container-inner {
-  width: 1020px;
+  max-width: 1020px;
 
-  @media (max-width: $tablet-landscape) {
+  @media (max-width: $desktop) {
     width: auto;
   }
-}
-
-.mx-auto {
-  margin-right: auto;
-  margin-left: auto;
-  
 }
 
 .visually-hidden {

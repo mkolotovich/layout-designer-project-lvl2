@@ -1,0 +1,45 @@
+@media (max-width: $desktop) {
+  .albums-item {
+    flex-basis: 130px;
+    flex-grow: 1;
+  }
+
+  .album-image {
+    max-width: 100%;
+  }
+
+  .albums-list {
+    justify-content: space-between;
+  }
+}
+
+@media (max-width: $iphone-6-plus) {
+  .albums-header {
+    font-size: 20px;
+  }
+
+  .albums-list {
+    column-gap: 20px;
+  }
+
+  .album-btn {
+    bottom: 5px;
+    left: 5px;
+  }
+
+  .album-btn-image {
+    width: 15px;
+    height: 15px;
+  }
+
+  .album-header {
+    margin-right: 30px;
+
+    margin-bottom: 5px;
+    font-size: 16px;
+  }
+
+  .album-year {
+    font-size: 14px;
+  }
+}

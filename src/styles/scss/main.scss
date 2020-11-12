@@ -8,9 +8,17 @@
   }
 }
 
-@media (max-width: $tablet) {
+@media (max-width: $tablet-landscape) {
   .app-container {
     flex-direction: column;
+    & .col:last-child {
+      text-align: center;
+    }
+  }
+
+  .app-image {
+    max-width: 100%;
+    margin-left: 0;
   }
 }
 
@@ -28,14 +36,7 @@
       flex-basis: auto;
       flex-shrink: 1;
       order: -1;
-
-      text-align: center;
     }
-  }
-
-  .app-image {
-    max-width: 100%;
-    margin-left: 0;
   }
 
   .app-description:first-child {
@@ -47,8 +48,38 @@
   }
 }
 
+@media (max-width: $desktop) {
+  .artists-item {
+    flex-basis: 130px;
+    flex-grow: 1;
+    max-width: 250px;
+  }
 
-.btn {
-  min-width: 200px;
-  min-height: 56px;
+  .artist-image {
+    max-width: 100%;
+  }
+
+  .artists-list {
+    justify-content: center;
+  }
+}
+
+@media (max-width: $iphone-6-plus) {
+  .artists-header {
+    margin-bottom: 72px;
+    font-size: 20px;
+  }
+
+  .artists-list {
+    column-gap: 20px;
+  }
+
+  .artist-header {
+    margin-top: 10px;
+    font-size: 16px;
+  }
+
+  .artist-fan {
+    font-size: 12px;
+  }
 }

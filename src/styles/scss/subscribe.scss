@@ -1,7 +1,8 @@
 .subscribe-item {
 
-  @media (max-width: $tablet-landscape) {
-    margin-bottom: 50px;
+  @media (max-width: $tablet) {
+    margin-right: auto;
+    margin-left: auto;
   }
 
   @media (max-width: $iphone-6-plus) {
@@ -10,16 +11,13 @@
 
     background-repeat: no-repeat;
     background-position-x: center;
-    background-size: cover;
-  }
-
-  @media (max-width: $iphone-6) {
     background-size: contain;
   }
 
   @media (max-width: $mobile) {
     margin-bottom: 0;
   }
+
   max-width: 350px;
   &:first-child {
     max-width: 352px;
@@ -31,10 +29,6 @@
   }
   &:last-child {
     background-image: url("../images/subscribe_3.png");
-
-    @media (max-width: $tablet-landscape) {
-      margin: auto;
-    }
 
     @media (max-width: $iphone-6-plus) {
       margin-bottom: 50px;
@@ -60,11 +54,12 @@
   }
 }
 
-@media (max-width: $tablet-landscape) {
+@media (max-width: $desktop) {
   .subscribe-list {
     flex-wrap: wrap;
     justify-content: space-evenly;
     margin-bottom: 0;
+    row-gap: 50px;
   }
 }
 
@@ -92,7 +87,7 @@
 
   .subscribe-item-description {
     margin-top: 41px;
-    margin-bottom: 65px;
+    margin-bottom: 15px;
   }
 
   .subscribe-description {

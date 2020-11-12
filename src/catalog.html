@@ -4,6 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Портал «Music Box» k2miha</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles/style.css">
 </head>
 <body>
@@ -32,16 +33,16 @@
       </form>
     </nav>
     <section class="container mx-auto text-white">
-      <h1 class="font-size-biggest text-uppercase mt-225 mb-0">Morten Harket</h1>
+      <h1 class="font-size-biggest text-uppercase mt-225 mb-0 header-level-1">Morten Harket</h1>
       <p class="mt-8 mb-40">
-        <b class="font-size-x-small">24 875 поклонников</b>
+        <b class="font-size-x-small bg-banner-inner-subscribers">24 875 поклонников</b>
       </p>
-      <button class="d-inline-flex align-items-center bg-violet border-radius-5 border-0 font-family-inherit font-size-smaller text-uppercase text-white text-left pl-19 mr-35 mb-76 btn">
-        <img class="pr-15" src="images/play-button.svg" alt="play-button" width="16" height="16">
+      <button class="d-inline-flex align-items-center bg-violet border-radius-5 border-0 font-family-inherit font-size-smaller text-uppercase text-white text-left pl-19 mr-35 mb-72 btn">
+        <img class="btn-image pr-15" src="images/play-button.svg" alt="play-button" width="16" height="16">
         Микс
       </button>
       <button class="d-inline-flex align-items-center bg-brown border-radius-5 border-0 font-family-inherit font-size-smaller text-uppercase text-white text-left pl-19 btn">
-        <img class="pr-15" src="images/heart.svg" alt="heart" width="14" height="16">
+        <img class="btn-image pr-15" src="images/heart.svg" alt="heart" width="14" height="16">
         В избранное
       </button>
     </section>
@@ -49,11 +50,11 @@
   <main>
     <div class="container mx-auto">
       <section>
-        <h2 class="text-white mt-100 font-size-bigger text-uppercase mb-50">Популярные треки</h2>
+        <h2 class="text-white mt-100 font-size-bigger text-uppercase mb-50 tracks-header">Популярные треки</h2>
         <ul class="d-flex pl-0 flex-wrap col-gap-68">
           <li class="tracks-item mb-25">
             <a class="d-flex text-decoration-none" href="">
-              <img src="images/Wild Seed.png" alt="Wild Seed" width="55" height="50">
+              <img class="tracks-image" src="images/Wild Seed.png" alt="Wild Seed" width="55" height="50">
               <div class="ml-16">
                 <h3 class="text-white font-weight-normal font-size-smaller mb-5 mt-7">Spanish Steps</h3>
                 <span class="font-size-xx-small text-gray">Morten Harket</span>
@@ -63,7 +64,7 @@
           </li>
           <li class="tracks-item mb-25">
             <a class="d-flex text-decoration-none" href="">
-              <img src="images/Brother.png" alt="Brother" width="55" height="50">
+              <img class="tracks-image" src="images/Brother.png" alt="Brother" width="55" height="50">
               <div class="ml-16">
                 <h3 class="text-white font-weight-normal font-size-smaller mb-5 mt-7">Brother</h3>
                 <span class="font-size-xx-small text-gray">Morten Harket</span>
@@ -73,7 +74,7 @@
           </li>
           <li class="tracks-item mb-25">
             <a class="d-flex text-decoration-none" href="">
-              <img src="images/Letter from Egypt.png" alt="Letter from Egypt" width="55" height="50">
+              <img class="tracks-image" src="images/Letter from Egypt.png" alt="Letter from Egypt" width="55" height="50">
               <div class="ml-16">
                 <h3 class="text-white font-weight-normal font-size-smaller mb-5 mt-7">Darkspace</h3>
                 <span class="font-size-xx-small text-gray">Morten Harket</span>
@@ -83,7 +84,7 @@
           </li>
           <li class="tracks-item mb-25">
             <a class="d-flex text-decoration-none" href="">
-              <img src="images/Letter from Egypt.png" alt="Letter from Egypt" width="55" height="50">
+              <img class="tracks-image" src="images/Letter from Egypt.png" alt="Letter from Egypt" width="55" height="50">
               <div class="ml-16">              
                 <h3 class="text-white font-weight-normal font-size-smaller mb-5 mt-7">With You - With Me</h3>
                 <span class="font-size-xx-small text-gray">Morten Harket</span>
@@ -93,7 +94,7 @@
           </li>
           <li class="tracks-item">
             <a class="d-flex text-decoration-none" href="">
-              <img src="images/Wild Seed.png" alt="Wild Seed" width="55" height="50">
+              <img class="tracks-image" src="images/Wild Seed.png" alt="Wild Seed" width="55" height="50">
               <div class="ml-16">
                 <h3 class="text-white font-weight-normal font-size-smaller mb-5 mt-7">Brodsky Tune</h3>
                 <span class="font-size-xx-small text-gray">Morten Harket</span>
@@ -103,7 +104,7 @@
           </li>
           <li class="tracks-item">
             <a class="d-flex text-decoration-none" href="">
-              <img src="images/Out of My Hands.png" alt="Out of My Hands" width="55" height="50">
+              <img class="tracks-image" src="images/Out of My Hands.png" alt="Out of My Hands" width="55" height="50">
               <div class="ml-16">
                 <h3 class="text-white font-weight-normal font-size-smaller mb-5 mt-7">Burn Money Burn</h3>
                 <span class="font-size-xx-small text-gray">Morten Harket</span>
@@ -114,139 +115,139 @@
         </ul>
       </section>
       <section>
-        <h2 class="text-white mt-100 font-size-bigger text-uppercase mb-50">Дискография</h2>
-        <ul class="d-flex flex-wrap pl-0 gap-50">
-          <li>
+        <h2 class="text-white mt-100 font-size-bigger text-uppercase mb-50 albums-header">Дискография</h2>
+        <ul class="d-flex flex-wrap pl-0 gap-50 albums-list">
+          <li class="albums-item">
             <div class="relative">
-              <img class="d-flex" src="images/Brother.png" alt="Brother">
-              <button class="absolute d-flex left-15 bottom-10 bg-transparent border-0 padding-0">
-                <img src="images/play-button.svg" alt="play-button" width="25" height="25">
+              <img class="d-flex album-image" src="images/Brother.png" alt="Brother">
+              <button class="absolute d-flex left-15 bottom-10 bg-transparent border-0 padding-0 album-btn">
+                <img class="album-btn-image" src="images/play-button.svg" alt="play-button" width="25" height="25">
               </button>
             </div>
             <a class="text-white text-decoration-none" href="">
-              <h3 class="font-size-small mt-10 mb-10">Brother</h3>
+              <h3 class="font-size-small mt-10 mb-10 album-header">Brother</h3>
             </a>
-            <time class="text-white">2014</time>
+            <time class="text-white album-year">2014</time>
           </li>
-          <li>
+          <li class="albums-item">
             <div class="relative">
-              <img class="d-flex" src="images/Out of My Hands.png" alt="Out of My Hands">
-              <button class="absolute d-flex left-15 bottom-10 bg-transparent border-0 padding-0">
-                <img src="images/play-button.svg" alt="play-button" width="25" height="25">
+              <img class="d-flex album-image" src="images/Out of My Hands.png" alt="Out of My Hands">
+              <button class="absolute d-flex left-15 bottom-10 bg-transparent border-0 padding-0 album-btn">
+                <img class="album-btn-image" src="images/play-button.svg" alt="play-button" width="25" height="25">
               </button>
             </div>
             <a class="text-white text-decoration-none" href="">
-              <h3 class="font-size-small mt-10 mb-10">Out of My Hands</h3>
+              <h3 class="font-size-small mt-10 mb-10 album-header">Out of My Hands</h3>
             </a>
-            <time class="text-white">2012</time>
+            <time class="text-white album-year">2012</time>
           </li>
-          <li>
+          <li class="albums-item">
             <div class="relative">
-              <img class="d-flex" src="images/Letter from Egypt.png" alt="Letter from Egypt">
-              <button class="absolute d-flex left-15 bottom-10 bg-transparent border-0 padding-0">
-                <img src="images/play-button.svg" alt="play-button" width="25" height="25">
+              <img class="d-flex album-image" src="images/Letter from Egypt.png" alt="Letter from Egypt">
+              <button class="absolute d-flex left-15 bottom-10 bg-transparent border-0 padding-0 album-btn">
+                <img class="album-btn-image" src="images/play-button.svg" alt="play-button" width="25" height="25">
               </button>
             </div>
             <a class="text-white text-decoration-none" href="">
-              <h3 class="font-size-small mt-10 mb-10">Letter from Egypt</h3>
+              <h3 class="font-size-small mt-10 mb-10 album-header">Letter from Egypt</h3>
             </a>
-            <time class="text-white">2008</time>
+            <time class="text-white album-year">2008</time>
           </li>
-          <li>
+          <li class="albums-item">
             <div class="relative">
-              <img class="d-flex"  src="images/Vogts Villa.png" alt="Vogts Villa">
-              <button class="absolute d-flex left-15 bottom-10 bg-transparent border-0 padding-0">
-                <img src="images/play-button.svg" alt="play-button" width="25" height="25">
+              <img class="d-flex album-image"  src="images/Vogts Villa.png" alt="Vogts Villa">
+              <button class="absolute d-flex left-15 bottom-10 bg-transparent border-0 padding-0 album-btn">
+                <img class="album-btn-image" src="images/play-button.svg" alt="play-button" width="25" height="25">
               </button>
             </div>
             <a class="text-white text-decoration-none" href="">
-              <h3 class="font-size-small mt-10 mb-10">Vogts Villa</h3>
+              <h3 class="font-size-small mt-10 mb-10 album-header">Vogts Villa</h3>
             </a>
-            <time class="text-white">1996</time>
+            <time class="text-white album-year">1996</time>
           </li>
-          <li>
+          <li class="albums-item">
             <div class="relative">
-              <img class="d-flex" src="images/Wild Seed.png" alt="Wild Seed">
-              <button class="absolute d-flex left-15 bottom-10 bg-transparent border-0 padding-0">
-                <img src="images/play-button.svg" alt="play-button" width="25" height="25">
+              <img class="d-flex album-image" src="images/Wild Seed.png" alt="Wild Seed">
+              <button class="absolute d-flex left-15 bottom-10 bg-transparent border-0 padding-0 album-btn">
+                <img class="album-btn-image" src="images/play-button.svg" alt="play-button" width="25" height="25">
               </button>
             </div>
             <a class="text-white text-decoration-none" href="">
-              <h3 class="font-size-small mt-10 mb-10">Wild Seed</h3>
+              <h3 class="font-size-small mt-10 mb-10 album-header">Wild Seed</h3>
             </a>
-            <time class="text-white">1995</time>
+            <time class="text-white album-year">1995</time>
           </li>
-          <li>
+          <li class="albums-item">
             <div class="relative">
-              <img class="d-flex" src="images/Poetenes Evangelium.png" alt="Poetenes Evangelium">
-              <button class="absolute d-flex left-15 bottom-10 bg-transparent border-0 padding-0">
-                <img src="images/play-button.svg" alt="play-button" width="25" height="25">
+              <img class="d-flex album-image" src="images/Poetenes Evangelium.png" alt="Poetenes Evangelium">
+              <button class="absolute d-flex left-15 bottom-10 bg-transparent border-0 padding-0 album-btn">
+                <img class="album-btn-image" src="images/play-button.svg" alt="play-button" width="25" height="25">
               </button>
             </div>
             <a class="text-white text-decoration-none" href="">
-              <h3 class="font-size-small mt-10 mb-10">Poetenes Evangelium</h3>
+              <h3 class="font-size-small mt-10 mb-10 album-header">Poetenes Evangelium</h3>
             </a>
-            <time class="text-white">1993</time>
+            <time class="text-white album-year">1993</time>
           </li>
         </ul>
       </section>
       <section>
-        <h2 class="text-white mt-100 font-size-bigger text-uppercase mb-50">Похожие исполнители</h2>
-        <ul class="d-flex flex-wrap pl-0 gap-50 mb-100">
-          <li>
+        <h2 class="text-white mt-100 font-size-bigger text-uppercase mb-50 artists-header">Похожие исполнители</h2>
+        <ul class="d-flex flex-wrap pl-0 gap-50 mb-100 artists-list">
+          <li class="artists-item">
             <a class="d-flex flex-column text-white text-decoration-none text-center" href="">
-              <img src="images/A-ha.png" alt="A-ha">
-              <h3 class="font-size-small mt-15 mb-10">A-ha</h3>
-              <span>417 086 поклонников</span>
+              <img class="artist-image" src="images/A-ha.png" alt="A-ha">
+              <h3 class="font-size-small mt-15 mb-10 artist-header">A-ha</h3>
+              <span class="artist-fan">417 086 поклонников</span>
             </a>
           </li>
-          <li>
+          <li class="artists-item">
             <a class="d-flex flex-column text-white text-decoration-none text-center" href="">
-              <img src="images/Tears for Fears.png" alt="Tears for Fears">
-              <h3 class="font-size-small mt-15 mb-10">Tears for Fears</h3>
-              <span>434 086 поклонников</span>
+              <img class="artist-image" src="images/Tears for Fears.png" alt="Tears for Fears">
+              <h3 class="font-size-small mt-15 mb-10 artist-header">Tears for Fears</h3>
+              <span class="artist-fan">434 086 поклонников</span>
             </a>
           </li>
-          <li>
+          <li class="artists-item">
             <a class="d-flex flex-column text-white text-decoration-none text-center" href="">
-              <img src="images/Duran Duran.png" alt="Duran Duran">
-              <h3 class="font-size-small mt-15 mb-10">Duran Duran</h3>
-              <span>631 071 поклонник</span>
+              <img class="artist-image" src="images/Duran Duran.png" alt="Duran Duran">
+              <h3 class="font-size-small mt-15 mb-10 artist-header">Duran Duran</h3>
+              <span class="artist-fan">631 071 поклонник</span>
             </a>
           </li>
-          <li>
+          <li class="artists-item">
             <a class="d-flex flex-column text-white text-decoration-none text-center" href="">
-              <img src="images/Jack Savoretti.png" alt="Jack Savoretti">
-              <h3 class="font-size-small mt-15 mb-10">Jack Savoretti</h3>
-              <span>26 857 поклонников</span>
+              <img class="artist-image" src="images/Jack Savoretti.png" alt="Jack Savoretti">
+              <h3 class="font-size-small mt-15 mb-10 artist-header">Jack Savoretti</h3>
+              <span class="artist-fan">26 857 поклонников</span>
             </a>
           </li>
-          <li>
+          <li class="artists-item">
             <a class="d-flex flex-column text-white text-decoration-none text-center" href="">
-              <img src="images/Keane.png" alt="Keane">
-              <h3 class="font-size-small mt-15 mb-10">Keane</h3>
-              <span>1 704 358 поклонников</span>
+              <img class="artist-image" src="images/Keane.png" alt="Keane">
+              <h3 class="font-size-small mt-15 mb-10 artist-header">Keane</h3>
+              <span class="artist-fan">1 704 358 поклонников</span>
             </a>
           </li>
-          <li>
+          <li class="artists-item">
             <a class="d-flex flex-column text-white text-decoration-none text-center" href="">
-              <img src="images/Frank Sinatra.png" alt="Frank Sinatra">
-              <h3 class="font-size-small mt-15 mb-10">Frank Sinatra</h3>
-              <span>1 653 882 поклонника</span>
+              <img class="artist-image" src="images/Frank Sinatra.png" alt="Frank Sinatra">
+              <h3 class="font-size-small mt-15 mb-10 artist-header">Frank Sinatra</h3>
+              <span class="artist-fan">1 653 882 поклонника</span>
             </a>
           </li>
-          <li>
+          <li class="artists-item">
             <a class="d-flex flex-column text-white text-decoration-none text-center" href="">
-              <img src="images/Paul Young.png" alt="Paul Young">
-              <h3 class="font-size-small mt-15 mb-10">Paul Young</h3>
-              <span>50 329 поклонников</span>
+              <img class="artist-image" src="images/Paul Young.png" alt="Paul Young">
+              <h3 class="font-size-small mt-15 mb-10 artist-header">Paul Young</h3>
+              <span class="artist-fan">50 329 поклонников</span>
             </a>
           </li>
-          <li>
+          <li class="artists-item">
             <a class="d-flex flex-column text-white text-decoration-none text-center" href="">
-              <img src="images/Chris Rea.png" alt="Chris Rea">
-              <h3 class="font-size-small mt-15 mb-10">Chris Rea</h3>
-              <span>73 351 поклонник</span>
+              <img class="artist-image" src="images/Chris Rea.png" alt="Chris Rea">
+              <h3 class="font-size-small mt-15 mb-10 artist-header">Chris Rea</h3>
+              <span class="artist-fan">73 351 поклонник</span>
             </a>
           </li>
         </ul>

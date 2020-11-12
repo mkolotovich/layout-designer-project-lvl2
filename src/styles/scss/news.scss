@@ -17,8 +17,9 @@
   }
 }
 
-@media (max-width: $tablet) {
+@media (max-width: $tablet-landscape) {
   .news-image {
+    max-width: 100%;
     margin: auto;
   }
 
@@ -45,10 +46,6 @@
     &:last-of-type .news-article-header {
       margin-top: 20px;
     }
-  }
-
-  .news-image {
-    max-width: 100%;
   }
 
   .news-description {

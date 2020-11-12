@@ -4,25 +4,57 @@
 
 .bg-banner {
   background-image: url("../images/banner.png");
+  background-position: center;
 
-  @media (max-width: $tablet) {
+  @media (max-width: $desktop) {
     background-position-x: -176px;
   }
 
-  @media (max-width: $iphone-6-plus) {
-    background-size: 1156px;
+  @media (max-width: $tablet-landscape) {
+    background-size: cover;
+  }
+
+  @media (max-width: $iphone-6) {
+    background-size: 1156px 738px;
   }
 }
 
 .bg-banner-inner {
   background-image: url("../images/Morten Harket.png");
+  background-position: center;
+
+  @media (max-width: $desktop) {
+    background-position-x: -660px;
+  }
+
+  @media (max-width: $tablet-landscape) {
+    background-position-x: -1194px;
+    background-size: 2200px 630px;
+  }
+
+  @media (max-width: $tablet) {
+    background-position-x: -1374px;
+
+    & .header-level-1 {
+      margin-top: 90px;
+      margin-bottom: 25px;
+    }
+  }
 }
 
 .header-form {
   max-width: 570px;
 
   @media (max-width: $tablet-landscape) {
-    padding-bottom: 44px;
+    padding-bottom: 33px;
+  }
+
+  @media (max-width: $iphone-6-plus) {
+    padding-bottom: 5px;
+  }
+
+  @media (max-width: $iphone-6) {
+    padding-bottom: 21px;
   }
 }
 
@@ -30,7 +62,7 @@
   min-width: 270px;
   min-height: 50px;
 
-  @media (max-width: $iphone-6-plus) {
+  @media (max-width: $tablet) {
     flex-grow: 1;
   }
 }
@@ -49,6 +81,10 @@
   }
 
   .banner-text {
+    font-size: 17px;
+  }
+  
+  .bg-banner-inner-subscribers {
     font-size: 17px;
   }
 }
@@ -81,17 +117,27 @@
   .banner-text {
     font-size: 14px;
   }
+
+  .bg-banner-inner-subscribers {
+    font-size: 16px;
+  }
 }
 
 @media (max-width: $iphone-6) {
   .header-level-1 {
     font-size: 35px;
   }
+
   .important-text {
     font-size: 20px;
   }
+
   .banner-text {
     font-size: 13px;
+  }
+
+  .bg-banner-inner-subscribers {
+    font-size: 15px;
   }
 }
 
@@ -99,10 +145,67 @@
   .header-level-1 {
     font-size: 30px;
   }
+
   .important-text {
     font-size: 18px;
   }
+
   .banner-text {
     font-size: 12px;
+  }
+
+  .bg-banner-inner-subscribers {
+    font-size: 14px;
+  }
+}
+
+.btn {
+  min-width: 200px;
+  min-height: 56px;
+
+  @media (max-width: $desktop) {
+    &:first-of-type {
+      margin-bottom: 75px;
+    }
+  }
+
+  @media (max-width: $tablet) {
+    &:first-of-type {
+      margin-bottom: 19px;
+    }
+
+    &:last-of-type {
+      margin-bottom: 75px;
+    }
+  }
+
+  @media (max-width: $iphone-6-plus) {
+    &:last-of-type {
+      margin-bottom: 33px;
+    }
+  }
+
+  @media (max-width: $iphone-6) {
+    &:last-of-type {
+      margin-bottom: 45px;
+    }
+  }
+
+  @media (max-width: $mobile) {
+    &:last-of-type {
+      margin-bottom: 92px;
+    }
+  }
+
+  @media (max-width: $iphone-6) {
+    min-width: 100%;
+    margin-right: 0;
+    padding-left: 15px;
+  }
+}
+
+@media (max-width: $mobile) {
+  .btn-image {
+    padding-right: 19px;
   }
 }

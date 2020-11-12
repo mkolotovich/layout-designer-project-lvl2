@@ -6,17 +6,29 @@
   }
 }
 
+.footer-bottom-menu{
+  max-width: 534px;
+}
+
 @media (max-width: $tablet) {
   .footer-container {
     flex-wrap: wrap;
   }
 
   .footer-menu-container {
-    min-width: 50%;
+    flex-basis: 50%;
   }
   
   .footer-menu-container:last-child .footer-menu {
     max-width: 147px;
+  }
+
+  .footer-bottom-menu {
+    flex-direction: column;
+  }
+
+  .footer-bottom-item:not(:last-child) {
+    margin-bottom: 20px;
   }
 }
 
@@ -32,14 +44,6 @@
 
   .footer-menu-container:first-child .footer-menu-header {
     margin-top: 84px;
-  }
-
-  .footer-bottom-menu {
-    flex-direction: column;
-  }
-
-  .footer-bottom-item:not(:last-child) {
-    margin-bottom: 20px;
   }
 }
 

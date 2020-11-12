@@ -1,3 +1,23 @@
 .tracks-item {
   flex-basis: 531px;
 }
+
+@media (max-width: $desktop) {
+    .tracks-item {
+      flex-grow: 1;
+
+    &:not(:last-of-type) {
+      margin-bottom: 25px;
+    }
+  }
+}
+
+@media (max-width: $iphone-6-plus) {
+  .tracks-header {
+    font-size: 20px;
+  }
+
+  .tracks-image {
+    width: 50px;
+  }
+}
