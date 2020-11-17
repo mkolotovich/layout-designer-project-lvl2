@@ -1,3 +1,15 @@
+.btn-album {
+  position: absolute;
+  bottom: 10px;
+  left: 15px;
+  display: flex;
+  padding: 0;
+}
+
+.album-image {
+  display: flex;
+}
+
 @media (max-width: $desktop) {
   .albums-item {
     flex-basis: 130px;
@@ -13,6 +25,16 @@
   }
 }
 
+.album-header {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 20px;
+}
+
+.album-year {
+  color: $white;
+}
+
 @media (max-width: $iphone-6-plus) {
   .albums-header {
     font-size: 20px;
@@ -22,7 +44,7 @@
     column-gap: 20px;
   }
 
-  .album-btn {
+  .btn-album {
     bottom: 5px;
     left: 5px;
   }

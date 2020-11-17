@@ -17,6 +17,20 @@
 .btn-search {
   min-width: 278px;
   min-height: 25px;
+  padding-left: 14px;
+  font-weight: bold;
+  font-size: 11px;
+}
+
+.menu-link {
+  color: $gray;
+  font-weight: bold;
+  font-size: 11px;
+  text-decoration: none;
+}
+
+.menu-link-active {
+  color: $white;
 }
 
 @media (max-width: $tablet-landscape) {

@@ -1,5 +1,8 @@
 .footer-menu {
   max-width: 534px;
+  margin-bottom: 100px;
+  padding-left: 0;
+  list-style: none;
   
   @media (max-width: $iphone-6-plus) {
     margin-bottom: 0;
@@ -30,6 +33,13 @@
   .footer-bottom-item:not(:last-child) {
     margin-bottom: 20px;
   }
+}
+
+.footer-menu-header {
+  margin-top: 80px;
+  margin-bottom: 30px;
+  color: $light-gray;
+  font-size: 18px;
 }
 
 @media (max-width: $iphone-6-plus) {

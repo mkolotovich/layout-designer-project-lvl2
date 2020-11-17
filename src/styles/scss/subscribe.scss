@@ -1,5 +1,9 @@
 .subscribe-item {
-
+  box-sizing: border-box;
+  max-width: 350px;
+  padding-right: 25px;
+  padding-left: 25px;
+  
   @media (max-width: $tablet) {
     margin-right: auto;
     margin-left: auto;
@@ -18,15 +22,16 @@
     margin-bottom: 0;
   }
 
-  max-width: 350px;
   &:first-child {
     max-width: 352px;
   
     background-image: url("../images/subscribe_1.png");
   }
+
   &:nth-child(2) {
     background-image: url("../images/subscribe_2.png");
   }
+
   &:last-child {
     background-image: url("../images/subscribe_3.png");
 
@@ -34,7 +39,7 @@
       margin-bottom: 50px;
       padding-right: 15px;
       padding-left: 15px;
-      .subscribe-link {
+      .btn-subscribe {
         max-width: 240px;
       }
     }
@@ -44,14 +49,41 @@
   }
 }
 
-.subscribe-link {
+.subscribe-item-header {
+  margin-top: 24px;
+  margin-bottom: 222px;
+  font-weight: normal;
+  font-size: 24px;
+  text-transform: uppercase;
+}
+
+.btn-subscribe {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  width: auto;
   min-height: 68px;
+  font-size: 24px;
 
   @media (max-width: $iphone-6-plus) {
     min-height: 55px;
 
     font-size: 12px;
   }
+}
+
+.btn-border-thick {
+  color: $white;
+  border-color: $white;
+  border-style: solid;
+  border-width: 4px;
+}
+
+.subscribe-item-description {
+  margin-top: 38px;
+  margin-bottom: 60px;
+  font-size: 11px;
 }
 
 @media (max-width: $desktop) {
