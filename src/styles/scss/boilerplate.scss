@@ -328,46 +328,6 @@
   text-decoration: none;
   background-color: transparent;
   border-radius: 5px;
-  
-  @media (max-width: $desktop) {
-    &:first-of-type {
-      margin-bottom: 75px;
-    }
-  }
-
-  @media (max-width: $tablet) {
-    &:first-of-type {
-      margin-bottom: 19px;
-    }
-
-    &:last-of-type {
-      margin-bottom: 75px;
-    }
-  }
-
-  @media (max-width: $iphone-6-plus) {
-    &:last-of-type {
-      margin-bottom: 33px;
-    }
-  }
-
-  @media (max-width: $iphone-6) {
-    &:last-of-type {
-      margin-bottom: 45px;
-    }
-  }
-
-  @media (max-width: $mobile) {
-    &:last-of-type {
-      margin-bottom: 92px;
-    }
-  }
-
-  @media (max-width: $iphone-6) {
-    min-width: 100%;
-    margin-right: 0;
-    padding-left: 15px;
-  }
 }
 
 .header-level-2 {

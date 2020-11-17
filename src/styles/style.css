@@ -343,48 +343,6 @@ body {
   border-radius: 5px;
 }
 
-@media (max-width: 1279px) {
-  .btn:first-of-type {
-    margin-bottom: 75px;
-  }
-}
-
-@media (max-width: 768px) {
-  .btn:first-of-type {
-    margin-bottom: 19px;
-  }
-
-  .btn:last-of-type {
-    margin-bottom: 75px;
-  }
-}
-
-@media (max-width: 425px) {
-  .btn:last-of-type {
-    margin-bottom: 33px;
-  }
-}
-
-@media (max-width: 375px) {
-  .btn:last-of-type {
-    margin-bottom: 45px;
-  }
-}
-
-@media (max-width: 320px) {
-  .btn:last-of-type {
-    margin-bottom: 92px;
-  }
-}
-
-@media (max-width: 375px) {
-  .btn {
-    min-width: 100%;
-    margin-right: 0;
-    padding-left: 15px;
-  }
-}
-
 .header-level-2 {
   margin-top: 100px;
   margin-bottom: 50px;
@@ -623,6 +581,48 @@ body {
   padding-left: 19px;
 
   font-size: 14px;
+}
+
+@media (max-width: 1279px) {
+  .btn-banner:first-of-type {
+    margin-bottom: 75px;
+  }
+}
+
+@media (max-width: 768px) {
+  .btn-banner:first-of-type {
+    margin-bottom: 19px;
+  }
+
+  .btn-banner:last-of-type {
+    margin-bottom: 75px;
+  }
+}
+
+@media (max-width: 425px) {
+  .btn-banner:last-of-type {
+    margin-bottom: 33px;
+  }
+}
+
+@media (max-width: 375px) {
+  .btn-banner:last-of-type {
+    margin-bottom: 45px;
+  }
+}
+
+@media (max-width: 320px) {
+  .btn-banner:last-of-type {
+    margin-bottom: 92px;
+  }
+}
+
+@media (max-width: 375px) {
+  .btn-banner {
+    min-width: 100%;
+    margin-right: 0;
+    padding-left: 15px;
+  }
 }
 
 .btn-violet {
@@ -878,12 +878,6 @@ body {
 
   .subscribe-item:last-child .btn-subscribe {
     max-width: 240px;
-  }
-}
-
-@media (max-width: 320px) {
-  .subscribe-item:last-child {
-    margin-bottom: 0;
   }
 }
 
